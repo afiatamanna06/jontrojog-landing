@@ -13,14 +13,14 @@ function NavigationBar() {
   return (
     <nav className={`fixed py-4 px-2 md:px-4 z-[99] w-full ${containerHeight}`}>
       <div
-        className={`relative flex flex-col lg:flex-row px-4 text-sm rounded-lg py-2 items-start lg:items-center bg-[#ffffff4f] w-full justify-between ${containerHeight}`}
+        className={`relative text-[1.025rem] flex flex-col lg:flex-row px-4 text-sm rounded-lg py-2 items-start lg:items-center bg-[#ffffff4f] w-full justify-between ${containerHeight}`}
       >
         <div className="flex flex-row items-center justify-between w-[100%]">
           <div className="flex flex-row items-center">
             <div>
               <Link href="/" passHref>
-                <div className="flex flex-row items-center text-xl cursor-pointer">
-                  <div className="font-semibold">Jontrojog</div>
+                <div className="flex flex-row items-center text-2xl cursor-pointer">
+                  <div className="font-semibold tracking-wider">Jontrojog</div>
                 </div>
               </Link>
             </div>
@@ -43,7 +43,7 @@ function NavigationBar() {
           {navigationLinks.map(({ name, path }) => (
             <Link href={path} key={name} passHref>
               <div
-                className="text-sm min-w-[5rem]"
+                className="font-medium min-w-[5.5rem] tracking-wider"
                 onClick={() => {
                   responsiveDisplay === "flex"
                     ? setResponsiveDisplay("none")
@@ -54,7 +54,7 @@ function NavigationBar() {
               </div>
             </Link>
           ))}
-          <button className="bg-black text-white rounded-sm min-w-[7rem] py-2 px-2">
+          <button className="bg-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3">
             Contact Us
           </button>
         </div>

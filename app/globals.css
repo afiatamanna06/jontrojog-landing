@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'VVDSExpBold';
+    src: url('../public/fonts/VVDS-Fifties-Exp-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VVDSExp';
+    src: url('../public/fonts/VVDS-Fifties-Exp-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VVDSExpMed';
+    src: url('../public/fonts/VVDS-Fifties-Exp-Med.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VVDSExpSBold';
+    src: url('../public/fonts/VVDS-Fifties-Exp-SBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VVDSExpLight';
+    src: url('../public/fonts/VVDS-Fifties-Exp-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
