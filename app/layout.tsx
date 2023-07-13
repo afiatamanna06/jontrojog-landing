@@ -1,3 +1,4 @@
+import NavigationBar from '@/components/navigation/NavigationBar'
 import './globals.css'
 
 export default function RootLayout({
@@ -71,7 +72,10 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
       </head>
-      <body className="">{children}</body>
+      <body className="min-h-[100vh]">
+        <NavigationBar />
+        {children}
+      </body>
     </html>
   )
 }
