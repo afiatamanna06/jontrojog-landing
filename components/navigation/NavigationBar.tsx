@@ -1,14 +1,17 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { FiMenu, FiSearch } from "react-icons/fi";
+import { FiMenu, FiMoon, FiSun } from "react-icons/fi";
 import { navigationLinks } from "./NavigationLinks";
+import { useAtom } from "jotai";
+import darkModeAtom from "@/atoms/darkModeAtom";
 
 function NavigationBar() {
   const [responsiveDisplay, setResponsiveDisplay] = useState("hidden");
+  const [colorMode, toggleColorMode] = useAtom(darkModeAtom);
 
   const containerHeight =
-    responsiveDisplay === "none" ? "h-min" : "h-full lg:h-min";
+    responsiveDisplay === "hidden" ? "h-min" : "h-full lg:h-min";
 
   return (
     <nav className={`fixed py-4 px-2 md:px-4 z-[99] w-full ${containerHeight}`}>
@@ -35,10 +38,25 @@ function NavigationBar() {
             >
               <FiMenu size={22} />
             </div>
+            <button
+              type="button"
+              onClick={() =>
+                colorMode === "light"
+                  ? toggleColorMode("dark")
+                  : toggleColorMode("light")
+              }
+              className="rounded bg-black dark:bg-[#737DFE4f] p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+            >
+              {colorMode === "light" ? (
+                <FiSun size={18} />
+              ) : (
+                <FiMoon size={18} />
+              )}
+            </button>
           </div>
         </div>
         <div
-          className={`${responsiveDisplay} lg:flex flex-col lg:flex-row gap-4 lg:gap-8 items-start lg:items-center`}
+          className={`${responsiveDisplay} lg:flex flex-col lg:flex-row gap-4 lg:gap-4 items-start lg:items-center`}
         >
           {navigationLinks.map(({ name, path }) => (
             <Link href={path} key={name} passHref>
@@ -56,6 +74,17 @@ function NavigationBar() {
           ))}
           <button className="bg-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3">
             Contact Us
+          </button>
+          <button
+            type="button"
+            onClick={() =>
+              colorMode === "light"
+                ? toggleColorMode("dark")
+                : toggleColorMode("light")
+            }
+            className="hidden lg:flex rounded bg-black dark:bg-[#737DFE4f] p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+          >
+            {colorMode === "light" ? <FiSun size={18} /> : <FiMoon size={18} />}
           </button>
         </div>
       </div>

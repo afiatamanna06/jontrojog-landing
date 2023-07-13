@@ -1,4 +1,7 @@
+"use client";
 import NavigationBar from '@/components/navigation/NavigationBar'
+import { useAtom } from "jotai";
+import darkModeAtom from "@/atoms/darkModeAtom";
 import './globals.css'
 
 export default function RootLayout({
@@ -6,6 +9,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const [colorMode, toggleColorMode] = useAtom(darkModeAtom);
+
   return (
     <html lang="en">
       <head>
@@ -71,7 +77,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
       </head>
-      <body className="min-h-[100vh] font-['VVDSExp']">
+      <body className={`min-h-[100vh] font-['VVDSExp'] overflow-x-hidden ${colorMode === "light" ? "dark" : "light"}`}>
         <NavigationBar />
         {children}
       </body>
