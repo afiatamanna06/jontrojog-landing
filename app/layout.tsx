@@ -3,6 +3,7 @@ import NavigationBar from '@/components/navigation/NavigationBar'
 import { useAtom } from "jotai";
 import darkModeAtom from "@/atoms/darkModeAtom";
 import './globals.css'
+import Footer from '@/components/footer/Footer';
 
 export default function RootLayout({
   children,
@@ -80,6 +81,7 @@ export default function RootLayout({
       <body className={`min-h-[100vh] font-['VVDSExp'] overflow-x-hidden ${colorMode === "light" ? "dark" : "light"}`}>
         <NavigationBar />
         {children}
+        <Footer />
       </body>
     </html>
   )

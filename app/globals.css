@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .dark {
-  @apply bg-black text-white;
+  @apply bg-black text-white border-white;
 }
 
 @font-face {
