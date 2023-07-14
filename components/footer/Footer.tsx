@@ -1,31 +1,5 @@
 import Link from "next/link";
-
-const navigation = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
-  ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
-};
+import { footerLinks } from "./FooterData";
 
 export default function Footer() {
   const date = new Date().getFullYear().toString();
@@ -54,7 +28,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-8">
               <div>
                 <ul role="list" className="mt-6 lg:mt-0 space-y-4">
-                  {navigation.solutions.map((item) => (
+                  {footerLinks.slice(0, 4).map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
@@ -68,7 +42,7 @@ export default function Footer() {
               </div>
               <div className="mt-0">
                 <ul role="list" className="mt-6 lg:mt-0 space-y-4">
-                  {navigation.support.map((item) => (
+                  {footerLinks.slice(4, 8).map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
