@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const navigation = {
   solutions: [
     { name: "Marketing", href: "#" },
@@ -26,19 +28,15 @@ const navigation = {
 };
 
 export default function Footer() {
+  const date = new Date().getFullYear().toString();
   return (
-    <footer className="border-t-2 border-black dark:border-t-2-white" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+    <div className="border-t-2 flex justify-center">
+      <div className="max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img
-              className="h-7"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-              alt="Company name"
-            />
+            <div className="flex flex-row items-center text-2xl">
+              <div className="font-semibold tracking-wider">Jontrojog</div>
+            </div>
             <p className="text-sm leading-6">
               Making the world a better place through constructing elegant
               hierarchies.
@@ -55,35 +53,30 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="grid grid-cols-2 gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 dark:text-white">
-                  Solutions
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-6 lg:mt-0 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-sm leading-6 dark:text-gray-300 dark:hover:text-white"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mt-0">
-                <h3 className="text-sm font-semibold leading-6 dark:text-white">
-                  Support
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-6 lg:mt-0 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-sm leading-6 dark:text-gray-300 dark:hover:text-white"
                       >
                         {item.name}
-                      </a>
+                      </Link
+                      >
                     </li>
                   ))}
                 </ul>
@@ -126,10 +119,10 @@ export default function Footer() {
         </div>
         <div className="mt-16 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 dark:text-gray-400 text-center">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; {date} Jontrojog, Inc. All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
