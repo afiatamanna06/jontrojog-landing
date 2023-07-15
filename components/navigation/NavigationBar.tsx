@@ -16,7 +16,7 @@ function NavigationBar() {
   return (
     <nav className={`fixed py-4 px-2 md:px-4 z-[99] w-full ${containerHeight}`}>
       <div
-        className={`relative text-[1.025rem] flex flex-col lg:flex-row px-4 text-sm rounded-lg py-2 items-start lg:items-center bg-[#ffffff4f] w-full justify-between ${containerHeight}`}
+        className={`relative text-[1.025rem] flex flex-col lg:flex-row px-4 text-sm rounded-lg py-2 items-start lg:items-center backdrop-blur-xl bg-[#00000007] dark:bg-[#0000001e] w-full justify-between ${containerHeight}`}
       >
         <div className="flex flex-row items-center justify-between w-[100%]">
           <div className="flex flex-row items-center">
@@ -45,7 +45,7 @@ function NavigationBar() {
                   ? toggleColorMode("dark")
                   : toggleColorMode("light")
               }
-              className="rounded bg-black dark:bg-[#737DFE4f] p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+              className="rounded bg-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
             >
               {colorMode === "light" ? (
                 <FiSun size={18} />
@@ -82,7 +82,7 @@ function NavigationBar() {
                 ? toggleColorMode("dark")
                 : toggleColorMode("light")
             }
-            className="hidden lg:flex rounded bg-black dark:bg-[#737DFE4f] p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+            className="hidden lg:flex rounded bg-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
           >
             {colorMode === "light" ? <FiSun size={18} /> : <FiMoon size={18} />}
           </button>

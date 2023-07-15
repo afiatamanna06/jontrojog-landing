@@ -21,6 +21,7 @@ export default function Footer() {
                 <Link
                   key={item.path}
                   href={item.path}
+                  target="_blank"
                   className="bg-black dark:bg-[#ffffffff] rounded-full p-2"
                 >
                   {item.Icon}
