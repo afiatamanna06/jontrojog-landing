@@ -25,7 +25,7 @@ export default function RootLayout({
         <title>Jontrojog</title>
         <meta name="description" content="A modern IoT supply website" />
 
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://jontrojog-landing.vercel.app/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Jontrojog" />
@@ -34,7 +34,7 @@ export default function RootLayout({
           property="og:description"
           content="A modern IoT supply website"
         />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://jontrojog-landing.vercel.app/" />
         <meta property="og:site_name" content="Jontrojog" />
         <meta
           property="og:image"
@@ -62,7 +62,7 @@ export default function RootLayout({
           content="/logo.png"
         />
 
-        <link rel="shortlink" href="" />
+        <link rel="shortlink" href="https://jontrojog-landing.vercel.app/" />
         <meta name="generator" content="WPML ver:4.6.3 stt:66,37,1,2,68;" />
         <meta name="generator" content="Site Kit by Google 1.99.0" />
         <link
