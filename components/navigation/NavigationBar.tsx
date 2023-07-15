@@ -45,7 +45,7 @@ function NavigationBar() {
                   ? toggleColorMode("dark")
                   : toggleColorMode("light")
               }
-              className="rounded bg-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+              className="rounded bg-black dark:bg-[#ffffffff] text-white dark:text-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
             >
               {colorMode === "light" ? (
                 <FiSun size={18} />
@@ -72,7 +72,7 @@ function NavigationBar() {
               </div>
             </Link>
           ))}
-          <button className="bg-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3">
+          <button className="bg-black dark:bg-[#ffffffff] text-white dark:text-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3">
             Contact Us
           </button>
           <button
@@ -82,7 +82,7 @@ function NavigationBar() {
                 ? toggleColorMode("dark")
                 : toggleColorMode("light")
             }
-            className="hidden lg:flex rounded bg-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
+            className="hidden lg:flex rounded bg-black dark:bg-[#ffffffff] text-white dark:text-black p-[9px] text-white shadow-sm outline-0 focus-visible:outline-0"
           >
             {colorMode === "light" ? <FiSun size={18} /> : <FiMoon size={18} />}
           </button>
