@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { footerLinks } from "./FooterData";
+import { footerLinks, socialLinks } from "./FooterData";
 
 export default function Footer() {
   const date = new Date().getFullYear().toString();
   return (
-    <div className="border-t-2 flex justify-center">
+    <footer className="border-t-2 border-black dark:border-t-2 dark:border-white flex justify-center">
       <div className="max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
@@ -15,13 +15,12 @@ export default function Footer() {
               Making the world a better place through constructing elegant
               hierarchies.
             </p>
-            <div className="flex space-x-6">
-              {/*navigation.social.map((item) => (
-                  <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
-                    <span className="sr-only">{item.name}</span>
-                    <item.icon className="h-6 w-6" aria-hidden="true" />
-                  </a>
-                ))*/}
+            <div className="flex space-x-3 text-white dark:text-black">
+              {socialLinks.map((item) => (
+                  <Link key={item.path} href={item.path} className="bg-black dark:bg-[#ffffffff] rounded-full p-2">
+                    {item.Icon}
+                  </Link>
+                ))}
             </div>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -58,7 +57,7 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-1 md:gap-8">
               <div className="mt-10 xl:mt-0">
-                <h3 className="text-sm font-semibold leading-6 dark:text-white">
+                <h3 className="text-sm font-semibold leading-6 dark:text-white tracking-wider">
                   Subscribe to our newsletter
                 </h3>
                 <p className="mt-2 text-sm leading-6 dark:text-gray-300">
@@ -97,6 +96,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

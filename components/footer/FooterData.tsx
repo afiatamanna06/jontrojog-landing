@@ -37,19 +37,19 @@ export const footerLinks = [
 
 export const socialLinks = [
     {
-        Icon: <FiFacebook />,
+        Icon: <FiFacebook size={20} />,
         path: "https://www.facebook.com/",
     },
     {
-        Icon: <FiTwitter />,
+        Icon: <FiTwitter size={20} />,
         path: "https://twitter.com/",
     },
     {
-        Icon: <FiInstagram />,
+        Icon: <FiInstagram size={20} />,
         path: "https://www.instagram.com/",
     },
     {
-        Icon: <FiLinkedin />,
+        Icon: <FiLinkedin size={20} />,
         path: "https://www.linkedin.com/",
     },
 ]
