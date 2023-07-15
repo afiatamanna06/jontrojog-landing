@@ -1,8 +1,9 @@
-import Link from "next/link";
-import { footerLinks, socialLinks } from "./FooterData";
+import Link from 'next/link'
+import { FiArrowRight } from 'react-icons/fi'
+import { footerLinks, socialLinks } from './FooterData'
 
 export default function Footer() {
-  const date = new Date().getFullYear().toString();
+  const date = new Date().getFullYear().toString()
   return (
     <footer className="border-t-2 border-black dark:border-t-2 dark:border-white flex justify-center">
       <div className="max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
@@ -17,10 +18,14 @@ export default function Footer() {
             </p>
             <div className="flex space-x-3 text-white dark:text-black">
               {socialLinks.map((item) => (
-                  <Link key={item.path} href={item.path} className="bg-black dark:bg-[#ffffffff] rounded-full p-2">
-                    {item.Icon}
-                  </Link>
-                ))}
+                <Link
+                  key={item.path}
+                  href={item.path}
+                  className="bg-black dark:bg-[#ffffffff] rounded-full p-2"
+                >
+                  {item.Icon}
+                </Link>
+              ))}
             </div>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -31,7 +36,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className="text-sm leading-6 dark:text-gray-300 dark:hover:text-white"
+                        className="leading-6 dark:text-gray-300 dark:hover:text-white"
                       >
                         {item.name}
                       </Link>
@@ -45,11 +50,10 @@ export default function Footer() {
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className="text-sm leading-6 dark:text-gray-300 dark:hover:text-white"
+                        className="leading-6 dark:text-gray-300 dark:hover:text-white"
                       >
                         {item.name}
-                      </Link
-                      >
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -57,33 +61,22 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-1 md:gap-8">
               <div className="mt-10 xl:mt-0">
-                <h3 className="text-sm font-semibold leading-6 dark:text-white tracking-wider">
+                <h3 className="font-semibold leading-6 dark:text-white tracking-wider">
                   Subscribe to our newsletter
                 </h3>
                 <p className="mt-2 text-sm leading-6 dark:text-gray-300">
                   The latest news, articles, and resources, sent to your inbox
                   weekly.
                 </p>
-                <form className="mt-6 sm:flex sm:max-w-md">
-                  <label htmlFor="email-address" className="sr-only">
-                    Email address
-                  </label>
+                <form className="relative mt-6 sm:flex sm:max-w-md">
                   <input
                     type="email"
-                    name="email-address"
-                    id="email-address"
-                    autoComplete="email"
-                    required
-                    className="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base dark:text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                    name="email"
+                    className="w-full h-[100%] rounded-full ring-0 outline-0 font-medium placeholder:font-medium focus:ring-0 text-black dark:text-white border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black py-3 pl-5 sm:text-sm sm:leading-6"
                     placeholder="Enter your email"
                   />
-                  <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-                    <button
-                      type="submit"
-                      className="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                    >
-                      Subscribe
-                    </button>
+                  <div className="absolute cursor-pointer inset-y-0 right-0 flex items-center border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black text-black dark:text-white rounded-full p-3">
+                    <FiArrowRight size={20} />
                   </div>
                 </form>
               </div>
@@ -97,5 +90,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
