@@ -45,10 +45,10 @@ function LandingSection() {
           </div>
           <div className="flex flex-col gap-6 px-4 md:px-12 lg:px-0 items-center lg:items-start">
             <div className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center lg:text-start tracking-wider">
-              IoT supply to enrich your online business.
+              Engineering IoT Solutions for a Connected World.
             </div>
             <div className="text-lg font-medium text-center lg:text-start text-gray-500 dark:text-gray-400">
-              Jontrojog is the best Iot marketplace where you can have support for your business and grow more.
+              Transforming Industries and Empowering Lives through Smart IoT Solutions.
             </div>
             <div className="flex flex-row gap-3">
               <button className="bg-black dark:bg-[#ffffffff] text-white dark:text-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
