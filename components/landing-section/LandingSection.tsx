@@ -47,7 +47,7 @@ function LandingSection() {
             <div className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center lg:text-start tracking-wider">
               IoT supply to enrich your online business.
             </div>
-            <div className="text-lg font-medium text-center lg:text-start">
+            <div className="text-lg font-medium text-center lg:text-start text-gray-500 dark:text-gray-400">
               Jontrojog is the best Iot marketplace where you can have support for your business and grow more.
             </div>
             <div className="flex flex-row gap-3">
