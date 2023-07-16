@@ -6,6 +6,10 @@
   @apply bg-black text-white border-white;
 }
 
+.landing-gradient {
+  backdrop-filter: blur(15px);
+}
+
 @font-face {
   font-family: "VVDSExpBold";
   src: url("../public/fonts/VVDS-Fifties-Exp-Bold.woff") format("woff");
