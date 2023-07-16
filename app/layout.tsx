@@ -23,7 +23,7 @@ export default function RootLayout({
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Jontrojog</title>
-        <meta name="description" content="A modern IoT supply website" />
+        <meta name="description" content="A modern IoT solutions website" />
 
         <link rel="canonical" href="https://jontrojog-landing.vercel.app/" />
         <meta property="og:locale" content="en_US" />
@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta name="thumbnail" content="/logo.png" />
         <meta
           property="og:description"
-          content="A modern IoT supply website"
+          content="A modern IoT solutions website"
         />
         <meta property="og:url" content="https://jontrojog-landing.vercel.app/" />
         <meta property="og:site_name" content="Jontrojog" />
@@ -55,7 +55,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Jontrojog" />
         <meta
           name="twitter:description"
-          content="A modern IoT supply website"
+          content="A modern IoT solutions website"
         />
         <meta
           name="twitter:image"
