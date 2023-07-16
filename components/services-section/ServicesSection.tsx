@@ -16,7 +16,7 @@ const ServicesSection = () => {
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
         <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           {servicesData.map((feature) => (
-            <div key={feature.name} className="relative pl-16">
+            <div key={feature.name} className="relative pl-16 bg-[#0000001f] dark:bg-[#ffffff1f]">
               <dt className="text-base font-semibold leading-7 tracking-wider">
                 <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-black dark:bg-[#ffffffff] text-white dark:text-black">
                   {feature.icon}

@@ -3,35 +3,35 @@ import { FiLinkedin, FiTwitter, FiInstagram, FiFacebook } from "react-icons/fi"
 export const footerLinks = [
   {
     name: 'About Us',
-    href: '/about',
-  },
-  {
-    name: 'Service',
-    href: '/service',
-  },
-  {
-    name: 'Our Works',
-    href: '/works',
+    href: '#about',
   },
   {
     name: 'Our Teams',
-    href: '/teams',
+    href: '#teams',
+  },
+  {
+    name: 'Service',
+    href: '#service',
+  },
+  {
+    name: 'Our Works',
+    href: '#works',
   },
   {
     name: 'Pricing',
-    href: '/',
+    href: '#',
   },
   {
     name: 'Documentation',
-    href: '/',
+    href: '#',
   },
   {
     name: 'Guides',
-    href: '/',
+    href: '#',
   },
   {
     name: 'API Status',
-    href: '/',
+    href: '#',
   },
 ]
 

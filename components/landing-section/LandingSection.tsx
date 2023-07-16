@@ -54,7 +54,7 @@ function LandingSection() {
               <button className="bg-black dark:bg-[#ffffffff] text-white dark:text-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
                 Get Started
               </button>
-              <button className="text-black dark:text-white border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
+              <button className="text-black dark:text-white border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black tracking-wider font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
                 Learn More
               </button>
             </div>
