@@ -1,5 +1,6 @@
 import About from '@/components/about-section/About'
 import LandingSection from '@/components/landing-section/LandingSection'
+import Projects from '@/components/projects/Projects'
 import ServicesSection from '@/components/services-section/ServicesSection'
 import TeamSection from '@/components/team-section/TeamSection'
 
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <TeamSection />
       <ServicesSection />
+      <Projects />
     </main>
   )
 }

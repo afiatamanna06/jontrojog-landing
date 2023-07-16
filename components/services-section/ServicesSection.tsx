@@ -2,7 +2,7 @@ import { servicesData } from './ServicesData'
 
 const ServicesSection = () => {
   return (
-    <div className="mx-auto mt-28 mb-40 max-w-7xl px-6 lg:px-8">
+    <div id="service" className="mx-auto mt-28 mb-40 max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:text-center">
         <p className="mt-2 text-3xl font-bold tracking-wider sm:text-4xl">
           Services We Provide

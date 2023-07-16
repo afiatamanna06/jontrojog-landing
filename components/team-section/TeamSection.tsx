@@ -2,7 +2,7 @@ import { peopleData } from './TeamData'
 
 const TeamSection = () => {
   return (
-    <section className="py-24 sm:py-32">
+    <section id="teams" className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-wider sm:text-4xl">Meet our team</h2>

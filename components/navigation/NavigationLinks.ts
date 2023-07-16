@@ -1,18 +1,18 @@
 export const navigationLinks = [
     {
         name: "About Us",
-        path: "/about"
-    },
-    {
-        name: "Service",
-        path: "/service"
-    },
-    {
-        name: "Our Works",
-        path: "/works"
+        path: "#about"
     },
     {
         name: "Our Teams",
-        path: "/teams"
+        path: "#teams"
+    },
+    {
+        name: "Service",
+        path: "#service"
+    },
+    {
+        name: "Our Works",
+        path: "#works"
     },
 ]
