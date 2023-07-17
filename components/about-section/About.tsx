@@ -1,8 +1,8 @@
 const stats = [
-  { id: 1, name: 'Users', value: '11,000' },
-  { id: 2, name: 'Total revenue', value: '$2M' },
-  { id: 3, name: 'Countries', value: '4' },
-  { id: 4, name: 'Founded', value: '2022' },
+  { id: 1, name: 'Completed Projects', value: '30+' },
+  { id: 2, name: 'Clients Served', value: '13' },
+  { id: 3, name: 'Countries', value: '5' },
+  { id: 4, name: 'Founded', value: '2021' },
 ]
 
 export default function About() {
@@ -17,7 +17,7 @@ export default function About() {
         <div className="px-6 pb-24 pt-12 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
           <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
             <p className="text-3xl font-bold tracking-wider sm:text-4xl">
-              Trusted by thousands of users&nbsp;worldwide
+              Trusted by leading IoT startups&nbsp;worldwide
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-500 dark:text-gray-400">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores

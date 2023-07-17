@@ -16,7 +16,7 @@ export default function Footer() {
               Making the world a better place through constructing elegant
               hierarchies.
             </p>
-            <div className="flex space-x-3 text-white dark:text-black">
+            {/*<div className="flex space-x-3 text-white dark:text-black">
               {socialLinks.map((item) => (
                 <Link
                   key={item.path}
@@ -27,7 +27,7 @@ export default function Footer() {
                   {item.Icon}
                 </Link>
               ))}
-            </div>
+              </div>*/}
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="grid grid-cols-2 gap-8">
