@@ -46,10 +46,10 @@ function LandingSection() {
           </div>
           <div className="flex flex-col gap-6 px-4 md:px-12 lg:px-0 items-center lg:items-start">
             <div className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center lg:text-start tracking-wider">
-              Engineering IoT Solutions for a Connected World.
+              Engineering web & IoT Solutions for a Connected World.
             </div>
             <div className="text-lg font-medium text-center lg:text-start text-gray-500 dark:text-gray-400">
-              Transforming Industries and Empowering Lives through Smart IoT Solutions.
+              Transforming Industries and Empowering Lives through Smart Scalable Solutions.
             </div>
             <div className="flex flex-row gap-3">
               <Link href="#about">
