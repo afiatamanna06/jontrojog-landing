@@ -6,32 +6,16 @@ export const footerLinks = [
     href: '#about',
   },
   {
-    name: 'Our Teams',
+    name: 'Our Team',
     href: '#teams',
   },
   {
-    name: 'Service',
+    name: 'Services',
     href: '#service',
   },
   {
     name: 'Our Works',
     href: '#works',
-  },
-  {
-    name: 'Pricing',
-    href: '#',
-  },
-  {
-    name: 'Documentation',
-    href: '#',
-  },
-  {
-    name: 'Guides',
-    href: '#',
-  },
-  {
-    name: 'API Status',
-    href: '#',
   },
 ]
 
