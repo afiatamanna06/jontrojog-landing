@@ -4,11 +4,11 @@ export const navigationLinks = [
         path: "#about"
     },
     {
-        name: "Our Teams",
+        name: "Our Team",
         path: "#teams"
     },
     {
-        name: "Service",
+        name: "Services",
         path: "#service"
     },
     {

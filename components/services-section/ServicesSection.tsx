@@ -8,9 +8,7 @@ const ServicesSection = () => {
           Services We Provide
         </p>
         <p className="mt-6 text-lg leading-8 text-gray-400">
-          Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-          Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-          In mi viverra elit nunc.
+          We offer a comprehensive suite of services to drive the success of your IoT endeavors, including IoT consulting, hardware development, software development, and security and privacy solutions.
         </p>
       </div>
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

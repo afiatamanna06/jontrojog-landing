@@ -1,7 +1,7 @@
 export const peopleData = [
   {
     name: 'Sihan Tawsik',
-    role: 'Senior Designer',
+    role: 'Co-Founder & CTO',
     imageUrl:
       'https://www.voidstudio.tech/_next/image?url=%2Fsihan.jpeg&w=1080&q=75',
     twitterUrl: 'https://twitter.com/SihanTawsik',
@@ -9,7 +9,7 @@ export const peopleData = [
   },
   {
     name: 'Rafe Samnan Rahee',
-    role: 'Principal Designer',
+    role: 'Co-Founder & CEO',
     imageUrl:
       'https://www.voidstudio.tech/_next/image?url=%2Fsamnan.png&w=1080&q=75',
     twitterUrl: 'https://twitter.com/SamnanRahee',
@@ -17,7 +17,7 @@ export const peopleData = [
   },
   {
     name: 'Sanviraj Zahin Haque',
-    role: 'VP, User Experience',
+    role: 'Co-Founder & COO',
     imageUrl:
       'https://www.voidstudio.tech/_next/image?url=%2Fzahin.jpeg&w=1080&q=75',
     twitterUrl: 'https://twitter.com/HaqueJason',

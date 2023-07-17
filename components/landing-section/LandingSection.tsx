@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 import Carousel from 'nuka-carousel'
 import { landingImages } from './LandingSectionImages'
 import LandingSectionBg from './LandingSectionBg'
@@ -51,12 +52,16 @@ function LandingSection() {
               Transforming Industries and Empowering Lives through Smart IoT Solutions.
             </div>
             <div className="flex flex-row gap-3">
-              <button className="bg-black dark:bg-[#ffffffff] text-white dark:text-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
-                Get Started
-              </button>
-              <button className="text-black dark:text-white border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black tracking-wider font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
-                Learn More
-              </button>
+              <Link href="#about">
+                <button className="bg-black dark:bg-[#ffffffff] text-white dark:text-black tracking-wider text-white font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
+                  Get Started
+                </button>
+              </Link>
+              <Link href="#service">
+                <button className="text-black dark:text-white border-2 border-black dark:border-2 dark:border-white bg-white dark:bg-black tracking-wider font-medium rounded min-w-[7.5rem] py-2 px-3 hover:opacity-[0.9] active:opacity-[0.9]">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
           <div className="max-w-[15rem] md:max-w-[20rem] lg:max-w-[32rem] hidden lg:block">

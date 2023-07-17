@@ -4,25 +4,25 @@ export const servicesData = [
   {
     name: 'IoT Consulting',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Unlock the potential of IoT with our expert consulting services. We provide strategic guidance, risk assessment, and implementation strategies to seamlessly integrate IoT solutions into your business operations. Maximize your IoT investments, enhance efficiency, and seize new growth opportunities.',
     icon: <FaPhoneAlt />,
   },
   {
     name: 'Hardware Development',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Create cutting-edge IoT solutions with our hardware development expertise. From concept to production, we design and develop custom hardware components that ensure reliable connectivity and data acquisition. Our solutions are scalable, cost-effective, and tailored to meet your specific requirements.',
     icon: <FaMicrochip />,
   },
   {
     name: 'Software Development',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Drive your IoT initiatives forward with our software development services. We specialize in developing robust and scalable software solutions for device management, data processing, and actionable insights. Leverage our expertise in IoT platforms, cloud technologies, and data analytics to optimize performance and enhance user experiences.',
     icon: <FaCode />,
   },
   {
     name: 'Security and Privacy',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Ensure the security and privacy of your IoT systems with our comprehensive solutions. Our expert team identifies vulnerabilities, implements robust security measures, and ensures compliance with data protection regulations. Safeguard your IoT deployments against cyber threats, protecting the integrity, confidentiality, and availability of your data and systems.',
     icon: <FaFingerprint />,
   },
 ]

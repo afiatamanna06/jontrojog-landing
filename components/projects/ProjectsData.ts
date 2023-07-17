@@ -4,20 +4,20 @@ export const projectsData = [
     title: 'FieldPros',
     href: 'https://fieldpros.ai/',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'CRM Designed by Service Industry Professionals',
     imageUrl:
-      'https://source.unsplash.com/random/?website-development/1920x2880',
+      'FieldPros.png',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
   },
   {
     id: 2,
-    title: 'Trellis',
+    title: 'Trelis',
     href: 'https://www.trelis.com/',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Easily accept USDC Payments over Polygon',
     imageUrl:
-      'https://source.unsplash.com/random/?microcontroller/1920x2880',
+      'Trelis.png',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
   },
@@ -26,9 +26,9 @@ export const projectsData = [
     title: 'Pigeo',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Personal Safety App with IoT-Based GPS Location Tracking',
     imageUrl:
-      'https://source.unsplash.com/random/?website/1920x2880',
+      'Piegons.gif',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
   },
@@ -37,9 +37,9 @@ export const projectsData = [
     title: 'Fansthetic CMS',
     href: 'https://admin.fansthetic.com',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Full-featured CMS created from scratch',
     imageUrl:
-      'https://source.unsplash.com/random/?website/1920x2880',
+      'FanstheticCMS.png',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
   },

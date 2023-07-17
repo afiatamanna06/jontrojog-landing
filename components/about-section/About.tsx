@@ -20,9 +20,7 @@ export default function About() {
               Trusted by leading IoT startups&nbsp;worldwide
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-500 dark:text-gray-400">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              Our unwavering commitment to excellence and innovation has earned us the trust of industry leaders in the Internet of Things (IoT) domain. Leveraging our expertise, we collaborate closely with these startups, providing them with comprehensive solutions and valuable guidance to navigate the intricacies of the IoT landscape. 
             </p>
             <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
               {stats.map((stat) => (
