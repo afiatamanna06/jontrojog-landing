@@ -13,8 +13,7 @@ export default function Footer() {
               <div className="font-semibold tracking-wider">Jontrojog</div>
             </div>
             <p className="text-sm leading-6">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Transforming Industries and Empowering Lives through Smart IoT Solutions.
             </p>
             {/*<div className="flex space-x-3 text-white dark:text-black">
               {socialLinks.map((item) => (
