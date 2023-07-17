@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta name="thumbnail" content="/logo.png" />
         <meta
           property="og:description"
-          content="A modern IoT solutions website"
+          content="Jontrojog provides modern IoT and web solutions"
         />
         <meta property="og:url" content="https://jontrojog-landing.vercel.app/" />
         <meta property="og:site_name" content="Jontrojog" />
