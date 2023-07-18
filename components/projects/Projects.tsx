@@ -16,8 +16,7 @@ export default function Projects() {
             Our Works
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-400">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit
+            Showcasing some of our work providing web & IoT solutions
           </p>
         </div>
         <div className="flex justify-center mt-16">
